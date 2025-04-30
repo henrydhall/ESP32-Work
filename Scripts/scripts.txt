@@ -1,0 +1,4 @@
+esptool --baud 115200 write_flash 0x1000 .\ESP32_GENERIC-20241025-v1.24.0.bin
+
+mpremote edit main.py
+mpremote fs cp .\HelloWorld\main.py :main.py
