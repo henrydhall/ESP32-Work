@@ -9,3 +9,4 @@ while True:
     time.sleep(1)
     p2.on()
     time.sleep(1)
+    print('hello there')
