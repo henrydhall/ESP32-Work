@@ -3,7 +3,14 @@ Uses code and instruction from here:
 https://microcontrollerslab.com/raspberry-pi-pico-rfid-rc522-micropython/
 Works great with my esp32-wroom-32
 
-
+RC522   ->  ESP32
+SDA     ->  D18
+SCK     ->  D19
+MOSI    ->  D21
+MISO    ->  D22
+GND     ->  GND
+RST     ->  D23
+3.3V    ->  3V3
 """
 from machine import Pin, SPI
 
